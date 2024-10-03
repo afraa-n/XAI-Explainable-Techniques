@@ -13,7 +13,7 @@ The explainable technique I chose was LIME, which is a powerful technique for ge
 The model's predictions were visualized alongside the LIME explanations. For example, when presented with a handwritten digit "7," the model predicted it as "1." The LIME explanation highlighted the areas of the image that influenced this prediction, showing how the model was likely misled by similar features between the two digits.
 
 ### Visualization
-![Original Image and LIME Explanation]![image](https://github.com/user-attachments/assets/13ba0ff1-0e2e-4fe4-a3c4-43970dec0c33)
+![image](https://github.com/user-attachments/assets/3fd65f79-8e02-476d-b351-1a631299c260)
 *Left: Original Image (True Label: 7, Predicted Label: 1). Right: LIME Explanation highlighting influential features.*
 
 ## Strengths and Limitations
