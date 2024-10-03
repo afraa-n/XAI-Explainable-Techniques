@@ -33,13 +33,7 @@ The model's predictions were visualized alongside the LIME explanations. For exa
 - **Broader Analysis**: Analyze a more extensive range of images from the MNIST dataset to better understand the model's overall behavior.
 
 ## Conclusion
-This project demonstrates the importance of explainability in machine learning, especially for complex models. By employing LIME, we gain valuable insights into the decision-making process of the ResNet18 model, which can be vital for improving model performance and trustworthiness in real-world applications.
+This project emphasizes the need for explainability in machine learning. Using LIME provided insights into how the ResNet18 model makes predictions, which can help identify areas for improvement and build trust in its outputs.
 
-## Getting Started
-To run the notebook, please follow these steps:
-1. Open the [Google Colab Notebook](link_to_your_colab_notebook).
-2. Ensure all required libraries are installed.
-3. Run the cells sequentially to generate predictions and explanations.
-
-## License
-This project is licensed under the MIT License.
+## Credits
+Used Claude AI for documentation and code comments.
