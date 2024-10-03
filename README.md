@@ -6,8 +6,8 @@ This project implements local explanations for individual predictions made by a 
 ## Dataset Used
 The dataset utilized for this project is the MNIST dataset, which consists of 70,000 handwritten digits (0-9) represented as 28x28 pixel grayscale images. For the purpose of this assignment, the images were transformed to fit the input requirements of the ResNet18 model by converting them to RGB format and resizing them to 224x224 pixels.
 
-## XAI Technique Used
-We employed LIME, which is a powerful technique for generating local explanations for individual predictions made by complex models. LIME perturbs the input image to observe how these changes affect the model's output, allowing us to highlight the most important features for the model's prediction.
+## Explainable Technique Used
+The explainable technique I chose was LIME, which is a powerful technique for generating local explanations for individual predictions made by complex models. LIME perturbs the input image to observe how these changes affect the model's output, allowing us to highlight the most important features for the model's prediction.
 
 ## Results
 The model's predictions were visualized alongside the LIME explanations. For example, when presented with a handwritten digit "7," the model predicted it as "1." The LIME explanation highlighted the areas of the image that influenced this prediction, showing how the model was likely misled by similar features between the two digits.
