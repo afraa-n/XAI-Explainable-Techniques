@@ -1,4 +1,4 @@
-# XAI Assignment #5: Explainable Techniques
+# XAI: Explainable Techniques
 
 ## Overview
 This project implements local explanations for individual predictions made by a pre-trained ResNet18 model on the MNIST dataset using LIME (Local Interpretable Model-agnostic Explanations). The goal is to interpret how the model arrives at its predictions and to visualize what may influence these predictions. 
